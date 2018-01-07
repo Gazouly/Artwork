@@ -1,0 +1,436 @@
+/*start main rules*/
+@font-face{
+    font-family:'MyriadPro';
+    src:url(../fonts/'MyriadPro-Regular.otf'), url('MyriadPro-Bold.otf')
+}
+body {
+    height:4000px;
+    font-family:'MyriadPro-Regular',arial, tahoma, sans-serif;
+
+}
+.container {
+    width: 1100px;
+    margin:auto;
+
+}
+.clearfix {overflow:auto}
+/*end main rules*/
+
+/*start header*/
+.header {
+    background-color:#86509c;
+    height:700px;
+    overflow:hidden;
+}
+.header .logo {
+    float:left;
+}
+.header .logo h1 {color:#FFF;margin-top:25px}
+.header .navbar ul {
+    list-style:none;
+    float:right;
+    margin-top:30px;
+    text-transform:uppercase;
+}
+.header .navbar ul li {float:left;padding:10px 25px;Color:#FFF}
+.header .navbar a {text-decoration:none;color:#fff}
+.header .navbar ul li a:visited {color:#FFF}
+.header .navbar ul li:hover,.header .navbar ul #light {
+    background-color:#643a79;
+    border-radius:5px;
+    cursor:pointer;
+}
+.header #p {
+    text-align:center;
+    color:#FFF;
+    margin-top:250px;
+    font-size:30px; font-weight:bold;
+}
+.header #button button {
+    background:none;
+    color:#FFF;
+    text-transform:uppercase;
+    border:0;
+    padding:15px 50px;
+    margin-left:450px;
+    background-color:#eb7d4c;
+    border-radius:3px;
+    border-bottom:3px solid #c76a3f;
+    font-size:12px
+}
+.header #button button:hover {
+    background-color:#fb8c5b;
+}
+/*end header*/
+
+/*start services*/
+.services {
+    background-color:#18c2a5;
+    overflow:hidden;
+    height:700px;
+}
+.services #ser {
+    text-transform:uppercase;
+    color:#FFF;
+    font-size:30px; font-weight:bold;font-family:'Arial';
+    margin-top:120px;text-align: center;
+    
+}
+.services .line {
+    width:90px;
+    height:4px;
+    background-color:#15a58c;
+    margin-left:500px;
+    position:relative;
+    top:-18px
+    
+}
+.services #para {
+    text-align:center;
+    color:#FFF;
+    font-family: arial; font-size:20px; font-weight:100;
+    position:relative;top:-15px;
+}
+.services .skills {
+    width:25%;
+    float:left;
+}
+.services .skills:hover {background-color:#81dbcb}
+.services .skills h3{color:#FFF;text-align:center;text-transform:uppercase}
+.services .skills p{color:#FFF;text-align:center}
+.services .skills img {margin-left:23%}
+/*end services*/
+
+/*start team*/
+.team {
+    background-color:#e7f1f8;
+    overflow:hidden;
+    height:700px;
+}
+.team #tea {
+    text-transform:uppercase;
+    color:#27283d;
+    font-size:30px; font-weight:bold;font-family:'Arial';
+    margin-top:120px;text-align: center;
+    
+}
+.team .line {
+    width:90px;
+    height:4px;
+    background-color:#c8d9e5;
+    margin-left:500px;
+    position:relative;
+    top:-18px
+    
+}
+.team #para1 {
+    text-align:center;
+    color:#27283d;
+    font-family: arial; font-size:20px; font-weight:100;
+    position:relative;top:-15px;
+}
+.team .person {
+    width:25%;
+    float:left;
+}
+.team .person h3{color:#27283d;text-align:center;text-transform:uppercase;margin-bottom:0}
+.team .person h4 {color:#55c2e9;text-align:center;font-size:15px;margin-top:0}
+.team .person p{color:#27283d;text-align:center}
+.team .person img {margin-left:12%}
+/*end team*/
+
+/*start skills*/
+.skill {
+    background-color:#fff;
+    overflow:hidden;
+    height:700px;
+}
+.skill #ski {
+    text-transform:uppercase;
+    color:#27283d;
+    font-size:30px; font-weight:bold;font-family:'Arial';
+    margin-top:120px;text-align: center;
+    
+}
+.skill .line {
+    width:90px;
+    height:4px;
+    background-color:#c8d9e5;
+    margin-left:500px;
+    position:relative;
+    top:-18px
+    
+}
+.skill #para2 {
+    text-align:center;
+    color:#27283d;
+    font-family: arial; font-size:20px; font-weight:100;
+    position:relative;top:-15px;
+}
+.skill .progress .technique {margin-left:50px}
+.skill .progress .tech1 h3,.skill .progress .tech2 h3,.skill .progress .tech3 h3,.skill .progress .tech4 h3
+{Color:#3c4761;text-transform:uppercase}
+.skill .progress .tech1 div,.skill .progress .tech2 div,.skill .progress .tech3 div,.skill .progress .tech4 div {
+    background:#f2f2f1;
+    height:25px
+}
+.skill .progress .tech1 div span {
+    background:#30bae7;
+    display:block;
+    height:100%;
+    line-height:25px;
+    text-align:right; color:#FFF;
+    font-weight:bold;
+}
+.skill .progress .tech2 div span {
+    background:#d74680;
+    display:block;
+    height:100%;
+    line-height:25px;
+    text-align:right; color:#FFF;
+    font-weight:bold;
+}
+.skill .progress .tech3 div span {
+    background:#15c7a8;
+    display:block;
+    height:100%;
+    line-height:25px;
+    text-align:right; color:#FFF;
+    font-weight:bold;
+}
+.skill .progress .tech4 div span {
+    background:#eb7d4b;
+    display:block;
+    height:100%;
+    line-height:25px;
+    text-align:right; color:#FFF;
+    font-weight:bold;
+}
+/*end skills*/
+
+/*start portfolio*/
+.portfolio {
+    background-color:#ffdd99;
+    overflow:hidden;
+    height:1425px;
+}
+.portfolio #port {
+    text-transform:uppercase;
+    color:#393939;
+    font-size:30px; font-weight:bold;font-family:'Arial';
+    margin-top:120px;text-align: center;
+    
+}
+.portfolio .line {
+    width:90px;
+    height:4px;
+    background-color:#e5c37f;
+    margin-left:500px;
+    position:relative;
+    top:-18px
+    
+}
+.portfolio #para3 {
+    text-align:center;
+    color:#393939;
+    font-family: arial; font-size:20px; font-weight:100;
+    position:relative;top:-15px;
+}
+.portfolio ul {
+    list-style:none;
+    margin-top:10px;
+    margin-left:350px;
+    text-transform:uppercase;
+}
+.portfolio ul li {display:inline;padding:10px 15px;background-color:#ebc985; border-radius:3px;color:#393939}
+.portfolio ul #light {background-color:#fff}
+.portfolio ul li:hover {cursor:pointer;background-color:#fff}
+.portfolio .portf {float:left; width:45%;margin-top:65px;margin-right:5%}
+.portfolio .portf p {text-transform:uppercase; text-align:center }
+.portfolio #button button {
+    background:none;
+    color:#FFF;
+    text-transform:uppercase;
+    border:0;
+    padding:15px 50px;
+    margin-left:450px;
+    background-color:#17c2a4;
+    border-radius:3px;
+    border-bottom:3px solid #14a58c;
+    font-size:12px;
+    margin-top:130px
+}
+.portfolio #button button:hover {
+    background-color:#2ad3b5;
+}
+/*end portfolio*/
+
+/*start testimonials*/
+.testimonials {
+    background-color:#d74680;
+    overflow:hidden;
+    height:900px;
+}
+.testimonials #test {
+    text-transform:uppercase;
+    color:#fff;
+    font-size:30px; font-weight:bold;font-family:'Arial';
+    margin-top:120px;text-align: center;
+    
+}
+.testimonials .line {
+    width:90px;
+    height:4px;
+    background-color:#b73c6d;
+    margin-left:500px;
+    position:relative;
+    top:-18px
+    
+}
+.testimonials #our{
+    color:#fff;
+    font-family:'Arial';
+    margin-top:10px;text-align: center;
+    
+}
+.testimonials .t {
+    width:50%;
+    overflow:hidden;
+    margin-top:50px
+}
+.testimonials .t .image img {float:left}
+.testimonials .t .text1 q {font-style:italic;float:left; margin-left:18px;line-height:1.7em;color:#FFF;margin-top:10px}
+.testimonials .t .text2 p {float:left;margin-left:60px;font-size:20px;font-weight:bold;color:#fff;text-transform:uppercase}
+.testimonials .t .text2 p span {font-size:14px;font-weight:lighter;margin-left:5px;color:#ffdd99}
+
+.testimonials .t2 {
+    width:50%;
+    float:right;
+    margin-top:50px;
+    position:relative; top:-225px
+}
+.testimonials .t2 .image img {float:left}
+.testimonials .t2 .text1 q {font-style:italic;float:left; margin-left:18px;line-height:1.7em;color:#FFF;margin-top:10px}
+.testimonials .t2 .text2 p {float:left;margin-left:60px;font-size:20px;font-weight:bold;color:#fff;text-transform:uppercase}
+.testimonials .t2 .text2 p span {font-size:14px;font-weight:lighter;margin-left:5px;color:#ffdd99}
+/*end testimonials*/
+
+/*start contact us*/
+.contact {
+    background-color:#3c5499;
+    overflow:hidden;
+    height:700px;
+}
+.contact #con {
+    text-transform:uppercase;
+    color:#FFF;
+    font-size:30px; font-weight:bold;font-family:'Arial';
+    margin-top:120px;text-align: center;
+    
+}
+.contact .line {
+    width:90px;
+    height:4px;
+    background-color:#273a71;
+    margin-left:500px;
+    position:relative;
+    top:-18px
+    
+}
+.contact #para66 {
+    text-align:center;
+    color:#FFF;
+    font-family: arial; font-size:20px; font-weight:100;
+    position:relative;top:-15px;
+}
+.contact .form {margin-top:20px}
+.contact .form input[type="text"] {
+    border:0; border-radius:3px;
+    background:#273a71;
+    color:#fff;
+    padding:10px 5px;
+    width:30%;
+    margin-left:35px
+}
+.contact .form textarea {
+    background:#273a71;
+    color:#fff;
+    padding:10px;
+    border:0;
+    width:700px;
+    margin-top:15px;
+    margin-left:35px;
+    height:300px;
+    border-radius:3px;
+}
+.contact #button button {
+    background:none;
+    color:#FFF;
+    text-transform:uppercase;
+    border:0;
+    padding:15px 50px;
+    margin-left:30px;
+    background-color:#30bae7;
+    border-radius:3px;
+    border-bottom:3px solid #299ec5;
+    font-size:12px;
+    margin-top:15px
+}
+.contact #button button:hover {
+    background-color:#55cdf4;
+}
+
+/*end contact us */
+
+/*start footer*/
+.footer {background:#344b8e;padding:20px}
+.footer span {text-align:center;color:#fff;margin-left:460px}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
